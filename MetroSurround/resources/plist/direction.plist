@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>odpt.RailDirection:TokyoMetro.Asakusa</key>
+	<string>浅草方面</string>
+	<key>odpt.RailDirection:TokyoMetro.Ogikubo</key>
+	<string>荻窪方面</string>
+	<key>odpt.RailDirection:TokyoMetro.Ikebukuro</key>
+	<string>池袋方面</string>
+	<key>odpt.RailDirection:TokyoMetro.Honancho</key>
+	<string>方南町方面</string>
+	<key>odpt.RailDirection:TokyoMetro.NakanoSakaue</key>
+	<string>中野坂上方面</string>
+	<key>odpt.RailDirection:TokyoMetro.NakaMeguro</key>
+	<string>中目黒方面</string>
+	<key>odpt.RailDirection:TokyoMetro.KitaSenju</key>
+	<string>北千住方面</string>
+	<key>odpt.RailDirection:TokyoMetro.NishiFunabashi</key>
+	<string>西船橋方面</string>
+	<key>odpt.RailDirection:TokyoMetro.Nakano</key>
+	<string>中野方面</string>
+	<key>odpt.RailDirection:TokyoMetro.YoyogiUehara</key>
+	<string>代々木上原方面</string>
+	<key>odpt.RailDirection:TokyoMetro.Ayase</key>
+	<string>綾瀬方面</string>
+	<key>odpt.RailDirection:TokyoMetro.KitaAyase</key>
+	<string>北綾瀬方面</string>
+	<key>odpt.RailDirection:TokyoMetro.ShinKiba</key>
+	<string>新木場方面</string>
+	<key>odpt.RailDirection:TokyoMetro.Ikebukuro</key>
+	<string>池袋方面</string>
+	<key>odpt.RailDirection:TokyoMetro.Oshiage</key>
+	<string>押上方面</string>
+	<key>odpt.RailDirection:TokyoMetro.Shibuya</key>
+	<string>渋谷方面</string>
+	<key>odpt.RailDirection:TokyoMetro.AkabaneIwabuchi</key>
+	<string>赤羽岩淵方面</string>
+	<key>odpt.RailDirection:TokyoMetro.Meguro</key>
+	<string>目黒方面</string>
+	<key>odpt.RailDirection:TokyoMetro.ShirokaneTakanawa</key>
+	<string>白金高輪方面</string>
+	<key>odpt.RailDirection:TokyoMetro.Wakoshi</key>
+	<string>和光市方面</string>
+	<key>odpt.RailDirection:TokyoMetro.KotakeMukaihara</key>
+	<string>小竹向原方面</string>
+</dict>
+</plist>

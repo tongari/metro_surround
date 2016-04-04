@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MapCarCompositCell" id="IO8-pf-hCm" customClass="MapCarCompositCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IO8-pf-hCm" id="ygS-TR-dFQ">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Osp-aP-w0f">
+                        <rect key="frame" x="0.0" y="18" width="70" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="75" id="52O-7G-Pw3"/>
+                            <constraint firstAttribute="width" constant="70" id="xCW-Dn-txL">
+                                <variation key="heightClass=regular-widthClass=compact" constant="70"/>
+                            </constraint>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="74"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="52O-7G-Pw3"/>
+                                <exclude reference="xCW-Dn-txL"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="52O-7G-Pw3"/>
+                                <include reference="xCW-Dn-txL"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="乗り換え" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fW-D1-50b" customClass="TextIco">
+                        <rect key="frame" x="73" y="10" width="70" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="ABX-af-dBN"/>
+                            <constraint firstAttribute="width" constant="70" id="Ylh-Lj-djC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="周辺施設" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6z-Rf-km0" customClass="TextIco">
+                        <rect key="frame" x="73" y="50" width="70" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="3cy-n2-Fwn"/>
+                            <constraint firstAttribute="height" constant="31" id="gES-Qk-vzs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="-" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qmq-MS-nkb">
+                        <rect key="frame" x="150" y="20" width="120" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="MmO-TG-Pfd"/>
+                            <constraint firstAttribute="height" constant="12" id="eEy-RY-IkE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cm6-Su-Qc0">
+                        <rect key="frame" x="150" y="59" width="120" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="Y2l-Ma-FYF"/>
+                            <constraint firstAttribute="height" constant="12" id="scy-cU-NYJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="icoDetailArrow" translatesAutoresizingMaskIntoConstraints="NO" id="yVW-LK-IEK">
+                        <rect key="frame" x="297" y="34" width="13" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="XZg-Z9-WSt"/>
+                            <constraint firstAttribute="width" constant="13" id="k7R-sa-VW7"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="XZg-Z9-WSt"/>
+                                <exclude reference="k7R-sa-VW7"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="XZg-Z9-WSt"/>
+                                <include reference="k7R-sa-VW7"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6fW-D1-50b" firstAttribute="top" secondItem="ygS-TR-dFQ" secondAttribute="top" constant="10" id="01p-OV-4y3"/>
+                    <constraint firstAttribute="bottom" secondItem="Cm6-Su-Qc0" secondAttribute="bottom" constant="18" id="283-lU-Q4b"/>
+                    <constraint firstItem="Cm6-Su-Qc0" firstAttribute="leading" secondItem="Osp-aP-w0f" secondAttribute="trailing" constant="69" id="2AS-FF-8bQ"/>
+                    <constraint firstAttribute="bottom" secondItem="g6z-Rf-km0" secondAttribute="bottom" constant="8" id="8WN-Fe-8NV"/>
+                    <constraint firstAttribute="centerY" secondItem="yVW-LK-IEK" secondAttribute="centerY" id="KJV-jO-4cx"/>
+                    <constraint firstItem="6fW-D1-50b" firstAttribute="leading" secondItem="ygS-TR-dFQ" secondAttribute="leading" constant="73" id="Qx3-YA-H4f"/>
+                    <constraint firstItem="g6z-Rf-km0" firstAttribute="leading" secondItem="ygS-TR-dFQ" secondAttribute="leading" constant="73" id="UAr-5x-Ia1"/>
+                    <constraint firstItem="Osp-aP-w0f" firstAttribute="top" secondItem="ygS-TR-dFQ" secondAttribute="top" constant="18" id="hEX-FO-SmO"/>
+                    <constraint firstItem="Qmq-MS-nkb" firstAttribute="leading" secondItem="6fW-D1-50b" secondAttribute="trailing" constant="7" id="kUt-4T-wbg"/>
+                    <constraint firstItem="Osp-aP-w0f" firstAttribute="leading" secondItem="ygS-TR-dFQ" secondAttribute="leading" id="lB8-Qx-fxM"/>
+                    <constraint firstAttribute="trailing" secondItem="yVW-LK-IEK" secondAttribute="trailing" constant="10" id="lTz-cn-Ib2"/>
+                    <constraint firstItem="Cm6-Su-Qc0" firstAttribute="leading" secondItem="g6z-Rf-km0" secondAttribute="trailing" constant="7" id="qkb-xT-Uu9"/>
+                    <constraint firstItem="Qmq-MS-nkb" firstAttribute="top" secondItem="ygS-TR-dFQ" secondAttribute="top" constant="20" id="qpY-8u-30C"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="2AS-FF-8bQ"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="carNumberLabel" destination="Osp-aP-w0f" id="i82-Vc-TBF"/>
+                <outlet property="icoArrow" destination="yVW-LK-IEK" id="ZLR-2D-xdN"/>
+                <outlet property="icoSurroundInfo" destination="g6z-Rf-km0" id="s8l-wk-qON"/>
+                <outlet property="icoTransInfo" destination="6fW-D1-50b" id="GAd-7P-XXd"/>
+                <outlet property="surroundInfoLabel" destination="Cm6-Su-Qc0" id="WW0-Mo-uE4"/>
+                <outlet property="tranferInfoLabel" destination="Qmq-MS-nkb" id="CER-ye-xeb"/>
+            </connections>
+            <point key="canvasLocation" x="265" y="238"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icoDetailArrow" width="13" height="22"/>
+    </resources>
+</document>

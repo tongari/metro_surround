@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="60" id="m7E-J2-N72" customClass="NearStationListViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m7E-J2-N72" id="dwE-Bw-iJC">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="numberingMark" translatesAutoresizingMaskIntoConstraints="NO" id="1hl-4k-wDu">
+                        <rect key="frame" x="20" y="15" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="99n-EW-HGl"/>
+                            <constraint firstAttribute="width" constant="30" id="HYq-st-hxi"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TfQ-mA-IPS">
+                        <rect key="frame" x="60" y="10" width="53" height="18"/>
+                        <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPU-g4-ohQ">
+                        <rect key="frame" x="262" y="23" width="38" height="14"/>
+                        <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJ0-GA-jLj">
+                        <rect key="frame" x="60" y="36" width="26" height="15"/>
+                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="TfQ-mA-IPS" firstAttribute="leading" secondItem="1hl-4k-wDu" secondAttribute="trailing" constant="10" id="0F2-bJ-d8d"/>
+                    <constraint firstItem="yJ0-GA-jLj" firstAttribute="leading" secondItem="1hl-4k-wDu" secondAttribute="trailing" constant="10" id="2aV-ik-myx"/>
+                    <constraint firstAttribute="trailing" secondItem="dPU-g4-ohQ" secondAttribute="trailing" constant="20" id="7W3-Jh-asX"/>
+                    <constraint firstItem="1hl-4k-wDu" firstAttribute="leading" secondItem="dwE-Bw-iJC" secondAttribute="leading" constant="20" id="ASl-Q1-XYA"/>
+                    <constraint firstAttribute="bottom" secondItem="yJ0-GA-jLj" secondAttribute="bottom" constant="8" id="Fgt-cZ-rFc"/>
+                    <constraint firstAttribute="centerY" secondItem="dPU-g4-ohQ" secondAttribute="centerY" id="W3g-CO-WBf"/>
+                    <constraint firstAttribute="centerY" secondItem="1hl-4k-wDu" secondAttribute="centerY" id="WSq-r6-bkb"/>
+                    <constraint firstItem="TfQ-mA-IPS" firstAttribute="top" secondItem="dwE-Bw-iJC" secondAttribute="top" constant="10" id="bb9-cW-Vsc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="distanceLabel" destination="dPU-g4-ohQ" id="PG9-YT-HJX"/>
+                <outlet property="numberingMark" destination="1hl-4k-wDu" id="np8-ZK-Kns"/>
+                <outlet property="stationEnNameText" destination="yJ0-GA-jLj" id="hEr-A6-Sjg"/>
+                <outlet property="stationNameText" destination="TfQ-mA-IPS" id="gwA-VN-LWu"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="36"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="numberingMark" width="31" height="31"/>
+    </resources>
+</document>

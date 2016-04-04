@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3FBBBA3A-1493-43AC-AC0A-20177A45AEAE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MetroSurround</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C5FA267AC94B39117E95377394BADE327EAD4077</key>
+		<string>https://bitbucket.org/tongari/metro_surround.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MetroSurround/MetroSurround.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C5FA267AC94B39117E95377394BADE327EAD4077</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/tongari/metro_surround.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C5FA267AC94B39117E95377394BADE327EAD4077</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C5FA267AC94B39117E95377394BADE327EAD4077</string>
+			<key>IDESourceControlWCCName</key>
+			<string>src</string>
+		</dict>
+	</array>
+</dict>
+</plist>
